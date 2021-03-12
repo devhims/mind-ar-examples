@@ -1,0 +1,11 @@
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/defualt_marker.mind
+
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/card.png
+
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/preview.png
+
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/play-button-small.png
+
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/bunny.webm
+
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/bunny.mp4
