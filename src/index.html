@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script src="../mindar.prod.js?1"></script>
+    <link rel="stylesheet" href="./styles/mind.css" />
+  </head>
+  <body>
+    <div class="example-container">
+      <div id="example-compatibility-overlay" class="overlay">
+        <div class="content">
+          <p>Your device/browser is not compatible</p>
+          <p>
+            - For Android device, please use Chrome browser - For iOS device,
+            please use Safari browser
+          </p>
+        </div>
+      </div>
+
+      <a-scene
+        mindar="imageTargetSrc: https://cdn.glitch.com/78f596b6-3c67-4414-944a-532ca67e6f78%2Fdef.mind?v=1615299378329; showStats: false; autoStart: true"
+        embedded
+        color-space="sRGB"
+        renderer="colorManagement: true; physicallyCorrectLights"
+        vr-mode-ui="enabled: false"
+        device-orientation-permission-ui="enabled: true"
+      >
+        <a-assets>
+          <img
+            id="card"
+            src="https://cdn.glitch.com/78f596b6-3c67-4414-944a-532ca67e6f78%2Fcard.png?v=1615020043773"
+          />
+          <img
+            id="icon-play"
+            src="https://cdn.glitch.com/78f596b6-3c67-4414-944a-532ca67e6f78%2Fplay-button-small.png?v=1615035445100"
+          />
+          <img
+            id="paintandquest-preview"
+            src="https://cdn.glitch.com/78f596b6-3c67-4414-944a-532ca67e6f78%2Fpreview.png?v=1615299964539"
+          />
+          <video
+            id="paintandquest-video-mp4"
+            autoplay="false"
+            loop="true"
+            src="https://cdn.glitch.com/78f596b6-3c67-4414-944a-532ca67e6f78%2Fbunny.mp4?v=1615026460482"
+          ></video>
+          <video
+            id="paintandquest-video-webm"
+            autoplay="false"
+            loop="true"
+            src="https://cdn.glitch.com/78f596b6-3c67-4414-944a-532ca67e6f78%2Fbunny.webm?v=1615026457911"
+          ></video>
+        </a-assets>
+
+        <a-camera
+          position="0 0 0"
+          look-controls="enabled: false"
+          cursor="fuse: false; rayOrigin: mouse;"
+          raycaster="far: 10000; objects: .clickable"
+        >
+        </a-camera>
+
+        <a-entity id="mytarget" mytarget mindar-image-target="targetIndex: 0">
+          <a-entity visible="false" id="portfolio-panel" position="0 0 -0.01">
+            <a-entity id="portfolio-item0">
+              <a-video
+                id="paintandquest-video-link"
+                webkit-playsinline
+                playsinline
+                width="1"
+                height="0.552"
+                position="0 0 0"
+              ></a-video>
+              <a-image
+                id="preview-image"
+                class="clickable"
+                src="#paintandquest-preview"
+                alpha-test="0.5"
+                position="0 0 0.02"
+                height="0.552"
+                width="1"
+              >
+              </a-image>
+              <a-image
+                id="play-button"
+                class="clickable"
+                src="#icon-play"
+                position="0 0 0.05"
+                height="0.2"
+                width="0.2"
+              >
+              </a-image>
+            </a-entity>
+          </a-entity>
+        </a-entity>
+      </a-scene>
+    </div>
+    <script src="./js/mind.js"></script>
+  </body>
+</html>
