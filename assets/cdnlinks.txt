@@ -9,3 +9,11 @@ https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/play-button-small.pn
 https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/bunny.webm
 
 https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/bunny.mp4
+
+---
+
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggi.png
+
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggi.mind
+
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/tomato.glb
