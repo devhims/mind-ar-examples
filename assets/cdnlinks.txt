@@ -25,3 +25,4 @@ https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/smallestbird.glb
 ---
 
 https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/MaggiAnimFinal.glb
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggiaudio.mp3

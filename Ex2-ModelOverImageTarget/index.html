@@ -26,6 +26,7 @@
             id="avatarModel"
             src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/MaggiAnimFinal.glb"
           ></a-asset-item>
+          <audio id="maggisound" src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggiaudio.mp3" preload="auto"></audio>
         </a-assets>
 
         <a-camera
@@ -43,6 +44,7 @@
             animation-mixer
           ></a-gltf-model>
         </a-entity>
+        <a-entity sound="src: #maggisound"></a-entity>
       </a-scene>
     </div>
   </body>
