@@ -20,4 +20,4 @@ https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/tomato.glb
 
 ---
 
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/animatedbird.glb
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/smallestbird.glb
