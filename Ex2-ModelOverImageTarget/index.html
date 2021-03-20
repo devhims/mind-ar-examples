@@ -26,7 +26,7 @@
             id="avatarModel"
             src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/MaggiAnimFinal.glb"
           ></a-asset-item>
-          <audio id="maggisound" src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggiaudio.mp3" preload="auto"></audio>
+          <audio id="maggisound" src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggiaudio.mp3" preload="auto" autoplay="false"></audio>
         </a-assets>
 
         <a-camera
@@ -35,7 +35,7 @@
         >
         </a-camera>
 
-        <a-entity id="example-target" mindar-image-target="targetIndex: 0">
+        <a-entity id="example-target" mindar-image-target="targetIndex: 0" sound="src: #maggisound">
           <a-gltf-model
             rotation="0 0 0 "
             position="0 -1 0.1"
@@ -43,7 +43,7 @@
             src="#avatarModel"
             animation-mixer
           ></a-gltf-model>
-          <a-sound id="audioele" src="#maggisound" autoplay="false" position="0 -1 0.1" loop="true"></a-sound>
+          <!-- <a-sound id="audioele" src="#maggisound" autoplay="false" position="0 -1 0.1" loop="true"></a-sound> -->
         </a-entity>
         <!-- <a-entity sound="src: #maggisound"></a-entity> -->
       </a-scene>

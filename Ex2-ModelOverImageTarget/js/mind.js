@@ -2,14 +2,16 @@ const sceneEl = document.querySelector('a-scene');
 const arSystem = sceneEl.systems['mindar-system'];
 
 const exampleTarget = document.querySelector('#example-target');
-const audioElement = document.querySelector('#audioele');
+const audioElement = document.querySelector('#maggisound');
 
 const playSound = () => {
-  audioElement.components.sound.playSound();
+  // exampleTarget.components.sound.playSound();
+  audioElement.play();
 };
 
 const pauseSound = () => {
-  audioElement.components.sound.pauseSound();
+  // exampleTarget.components.sound.pauseSound();
+  audioElement.pause();
 };
 
 // detect target found
