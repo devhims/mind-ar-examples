@@ -32,3 +32,4 @@ https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/Ketchup10cm.glb
 https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/smallest.glb
 
 https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/KetchupNoAnim.glb
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/Animation2.glb

@@ -24,7 +24,7 @@
         <a-assets>
           <a-asset-item
             id="avatarModel"
-            src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/smallest.glb"
+            src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/KetchupNew.glb"
           ></a-asset-item>
         </a-assets>
 
@@ -37,9 +37,10 @@
         <a-entity mindar-image-target="targetIndex: 0">
           <a-gltf-model
             rotation="0 0 0 "
-            position="0 0 0.1"
-            scale="0.005 0.005 0.005"
+            position="0 -1 0.1"
+            scale="4 4 4"
             src="#avatarModel"
+            animation-mixer
           ></a-gltf-model>
         </a-entity>
       </a-scene>
