@@ -26,3 +26,4 @@ https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/smallestbird.glb
 
 https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/Ketchup.glb
 https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/KetchupWithoutAnim.glb
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/KetchupNew.glb
