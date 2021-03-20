@@ -24,13 +24,4 @@ https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/smallestbird.glb
 
 ---
 
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/Ketchup.glb
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/KetchupWithoutAnim.glb
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/KetchupNew.glb
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/newtom.glb
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/Ketchup10cm.glb
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/smallest.glb
-
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/KetchupNoAnim.glb
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/Animation2.glb
-https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/Animation3.glb
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/MaggiAnimFinal.glb
