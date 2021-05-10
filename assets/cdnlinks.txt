@@ -26,3 +26,9 @@ https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/smallestbird.glb
 
 https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/MaggiAnimFinal.glb
 https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggiaudio.mp3
+
+---
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/AppearitionKodak.mind
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/6x4-kodak-dm-appeartion-logos.png
+https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/6x4-landscape-stock-photo.png
+
