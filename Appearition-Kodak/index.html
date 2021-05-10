@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="./styles/mind.css" />
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@0.3.2/dist/mindar.prod.js"></script>
+  </head>
+  <body>
+      <div id="example-scanning-overlay" class="hidden">
+        <div class="inner">
+      <img src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggi.png"/>
+      <div class="scanline"></div>
+        </div>
+      </div>
+
+      <a-scene
+        mindar="uiScanning: #example-scanning-overlay; imageTargetSrc: https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggi.mind; showStats: false; autoStart: true"
+        color-space="sRGB"
+        renderer="colorManagement: true"
+        vr-mode-ui="enabled: false"
+        device-orientation-permission-ui="enabled: false"
+      >
+        <a-assets>
+          <a-asset-item
+            id="avatarModel"
+            src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/MaggiAnimFinal.glb"
+          ></a-asset-item>
+          <audio id="maggisound" src="https://cdn.jsdelivr.net/gh/devhims/mind-ar-examples/assets/maggiaudio.mp3" preload="auto" autoplay="false"></audio>
+        </a-assets>
+
+        <a-camera
+          position="0 0 0"
+          look-controls="enabled: false"
+        >
+        </a-camera>
+
+        <a-entity id="example-target" mindar-image-target="targetIndex: 0" sound="src: #maggisound">
+          <a-gltf-model
+            rotation="0 0 0 "
+            position="0 -1 0.1"
+            scale="4 4 4"
+            src="#avatarModel"
+            animation-mixer
+          ></a-gltf-model>
+          <!-- <a-sound id="audioele" src="#maggisound" autoplay="false" position="0 -1 0.1" loop="true"></a-sound> -->
+        </a-entity>
+        <!-- <a-entity sound="src: #maggisound"></a-entity> -->
+      </a-scene>
+    </div>
+    <script src="./js/mind.js"></script>
+  </body>
+</html>
